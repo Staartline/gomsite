@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+	--KuronoRed:#A02747;
+	--KuronoBlack:;
+	--KuronoPurple:#473155;
+
+}
+
+body{
+	margin:0px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.info{
+	margin:10px;
+}
+
+.topgif{
+	background-image: url('../assets/gomrun.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 640px;
+	width: auto;
+
+}
+
+.topgif h1{
+	position: relative;
+	margin:auto;
+	top:50%;
+	color:white;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+}
+
+
+.model{
+	box-shadow: 5px 5px 0px var(--KuronoRed);
+	background-color:;
+	border-radius: 10px;
+	color: var(--KuronoRed);
+	padding:0px 5px;
+}
+
+.container{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap:10px;
+}
+
+.socicon{
+	width: 30px;
+	height:auto;
+}
