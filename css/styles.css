@@ -2,7 +2,6 @@
 
 :root{
 	--KuronoRed:#A02747;
-	--KuronoBlack:;
 	--KuronoPurple:#473155;
 
 }
@@ -22,8 +21,7 @@ body{
 }
 
 .info > div {
-	margin: 25px;
-
+	margin: 10px;
 }
 
 .topgif{
@@ -32,7 +30,6 @@ body{
 	background-size: cover;
 	height: 720px;
 	width: auto;
-
 }
 
 .topgif h1{
@@ -47,28 +44,12 @@ ul{
 	padding: 0px;
 }
 
-
-.model{
-	box-shadow: 5px 5px 0px var(--KuronoRed);
-	background-color:white;
-	border-radius: 10px;
-	color: var(--KuronoRed);
-	padding:0px 5px;
-}
-
-.container{
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap:10px;
-}
-
 .socicon{
 	width: 30px;
 	height:auto;
 }
 
-.pricing, .add-ons{
-/*	border:3px solid white;*/
+.pricing, .add-ons, .model{
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.7);
 	padding: 10px;
@@ -77,9 +58,9 @@ ul{
 	margin: auto;
 }
 
-
-@media(max-width: 600px){
-	.container{
-		grid-template-columns: 1fr;
-	}
+.model{
+	box-shadow: 5px 5px 0px var(--KuronoRed);
+	background-color:white;
+	color: var(--KuronoRed);
+	margin: 10px 0px;
 }
